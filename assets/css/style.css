@@ -1,0 +1,252 @@
+html {
+    height:100%;
+    background-color: #0E0E10;
+    background-position:right bottom;
+    background-size:101%;
+    background-attachment: fixed;
+   
+}
+
+body {
+    padding:0;
+    margin:0;
+    height:100%;
+    background-color:transparent;
+}
+
+
+
+/***************** Login Page *****************/
+.LoginPage {
+    height:100%;
+}
+.LoginPage .Left {
+    display:inline-block;
+    width:100%;
+    height:100%;
+    background:#1A1A1D;
+}
+.LoginPage .Left .Image {
+    width:100%;
+    height:100%;
+    text-align:center;
+    display:inline-flex;
+    align-items:center; 
+    background-position:center;
+    background-size:auto 90%;
+}
+.LoginPage .Left .Image img {     
+    margin:0 auto;
+    min-height:65px;
+    max-height:80%;
+} 
+.LoginPage .Right {
+    display:inline-flex; 
+    height:100%;
+    width:100%
+} 
+.LoginPage .Right .Content {
+    display:inline-flex;
+    align-items:center;
+    width:100%;
+    background:#0E0E10;
+    padding-left:30px;
+    padding-right:60px;
+}
+.LoginPage .Right .Content .Div1 {
+    margin:0 auto;
+}
+.LoginPage .Right .Content .Form {
+    
+    margin:0 auto;
+}
+ 
+
+/***************** Success *****************/
+.SuccessDiv {
+    display:inline-flex;
+    align-items:center;
+    width:100%;
+    height:100%;
+    background:#fff;
+}
+.SuccessDiv .Flex {
+    display:inline-flex;
+    align-items:center;
+    width:100%;
+}
+.SuccessDiv .Info {
+    width:100%;
+}
+.SuccessDiv .Info .Check {
+    color:#00DE9B;
+    font-size:70px;
+    text-align: center;
+    margin-bottom:15px;
+}
+.SuccessDiv .Info .Text {
+    font-family:PoppinsBold;
+    font-size:32px;
+    line-height:39px;
+    color:#919191;
+    text-align:center;
+    margin-bottom:40px;
+}
+.SuccessDiv .Info .Buttons {
+    text-align:center;
+}
+.SuccessDiv .Info .Buttons .btn {
+    width:190px;
+    max-width:100%;
+}
+
+
+/***************** Success *****************/
+.LogOut {
+    display:inline-flex;
+    align-items:center;
+    width:100%;
+    height:100%;
+    background:#0E0E10;
+    visibility: hidden;
+    opacity:0;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:999;
+    transition:0.3s;
+}
+.LogOut.Show {
+    visibility:visible;
+    opacity:1;
+} 
+.LogOut .Flex {
+    display:inline-flex;
+    align-items:center;
+    width:100%;
+}
+.LogOut .Info {
+    width:100%;
+}
+.LogOut .Info .Check {
+    color:#28B2A9;
+    font-size:70px;
+    text-align: center;
+    margin-bottom:15px;
+}
+.LogOut .Info .Text {
+    font-family:PoppinsBold;
+    font-size:32px;
+    line-height:39px;
+    color:#919191;
+    text-align:center;
+    margin-bottom:112px;
+}
+.LogOut .Info .Buttons {
+    text-align:center;
+}
+.LogOut .Info .Buttons .btn {
+    width:260px;
+    max-width:100%;
+}
+
+
+
+
+
+.MainDiv {
+    display:inline-block;
+    width:100%;
+    float:left;
+}
+.MainDiv .ContentFLex {
+     display:flex
+}
+/***************** Sidebar *****************/
+.Sidebar {
+    display:inline-block;
+    float:left;
+    width:300px;
+    min-height:100vh; 
+    background:#1A1A1D;
+    padding-top:45px;    
+}
+.Sidebar .Logo { 
+    height:65px;
+    margin-bottom:50px;  
+     width:100%; 
+    text-align:center; 
+}
+.Sidebar .Logo img {
+    height:100%
+}
+.Sidebar .MainMenu {}
+.Sidebar .MainMenu ul {
+    padding:0;
+}
+.Sidebar .MainMenu ul li {}
+.Sidebar .MainMenu ul li a {
+    display:block; 
+    color:#919191;
+    font-size:18px; 
+    font-family:PoppinsSemiBold;
+    height:76px;
+    line-height:76px;
+    padding-left:60px;
+    text-decoration:none;
+    transition:0.3s;
+}
+.Sidebar .MainMenu ul li a span {
+    margin-right:12px;
+    font-size:23px;
+    position:relative;
+    top:4px;
+}
+.Sidebar .MainMenu ul li.active a,
+.Sidebar .MainMenu ul li:hover a {
+    background:#707070;
+    color:#fff;
+}
+.Sidebar .Checkbox { 
+    width:100%;
+    text-align:center; 
+    margin-top:100px;
+    margin-bottom:60px;
+}
+ 
+
+/***************** ContentDiv *****************/
+.ContentDiv {   
+    width:calc(100% - 300px);
+    display:inline-block;
+    float:left;
+    padding-left:16px;
+    padding-right:16px;
+}
+.ContentDiv .Header {
+    padding-top:40px;
+    margin-bottom:20px;
+}
+.ContentDiv .Header .HeadButtons {
+    float:right;
+}
+.ContentDiv .Header .HeadButtons .btn {
+     width:190px;
+}
+
+.ContentDiv .Header .HeadClose {
+     
+} 
+
+.ContentInside {
+    display:inline-block;
+    width:100%;
+    background:#1A1A1D;
+    padding-top:32px;  
+}
+.ContentInside h1 {
+    height:40px;
+    display:inline-block;
+    margin-bottom:30px;
+}
+

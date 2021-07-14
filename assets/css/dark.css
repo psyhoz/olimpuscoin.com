@@ -1,0 +1,98 @@
+
+/***************** Dark Mode ****************/
+body.DarkMode {
+    background:#1C1C1C url('../img/bg.svg');
+}
+.DarkMode .BurgerIcon {
+    color:#919191
+}
+.DarkMode .Sidebar {
+    background:#292929;
+}
+.Sidebar .Logo.LogoDark {
+    display:none;
+}
+.DarkMode .Sidebar .Logo {
+    display:none;
+}
+.DarkMode .Sidebar .Logo.LogoDark {
+    display:block;
+}
+
+.DarkMode .Sidebar .MainMenu ul li.active a, 
+.DarkMode .Sidebar .MainMenu ul li:hover a {
+    background:#333333;
+}
+
+
+/***************** Button Dark Mode ****************/
+.DarkMode .btn-close2 {
+    background:#292929;
+    color:#919191;
+}
+
+
+/***************** Language Dark Mode ****************/
+.DarkMode .Language a {
+    color:#919191;
+}
+.DarkMode .Language a:after {
+    background:#919191;
+}
+.DarkMode .Language a:hover, 
+.DarkMode .Language a.active {
+    background:rgba(145,145,145,0.08);
+}
+
+
+/***************** Content Dark Mode ****************/
+.DarkMode .ContentInside {
+    background:#292929;
+}
+
+
+/***************** Table Dark Mode ****************/
+.DarkMode .table tbody tr {
+    border-top:solid #414141 1px;
+}
+.DarkMode .table thead tr th {
+    color:#919191;
+}
+.DarkMode .table tbody tr td {
+    color:#919191;
+}
+
+
+/***************** Form Dark Mode ****************/
+.DarkMode .FormWidth.Border:after {
+    background:#414141;
+} 
+.DarkMode .bootstrap-select .dropdown-menu {
+    background:#414141;
+    padding:0;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+} 
+.DarkMode .bootstrap-select .dropdown-item {
+    padding:1rem;
+    font-family: MontserratMedium;
+    color: #919191;
+    font-size:16px;
+}
+.DarkMode .bootstrap-select .dropdown-item.active,
+.DarkMode .bootstrap-select .dropdown-item:active {
+    background:#414141;
+    color:#fff;
+}
+
+
+/***************** Text Dark Mode ****************/
+.DarkMode .TextDiv {
+    color:#919191;
+}
+
+
+/***************** LogOut Dark Mode ****************/
+.DarkMode .LogOut {
+    background:#bdbdbd;
+}

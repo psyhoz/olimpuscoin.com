@@ -1,0 +1,257 @@
+@media (max-width: 992px) {
+    
+    .HideMobile {
+        display:none !important;
+    }
+    .Height100 {
+        height:auto;
+    }
+    .MobileFull {
+        width:100% !important;
+        margin-left:0 !important;
+        margin-right:0 !important;
+    }
+    
+    h1 {
+        font-size:20px;
+    }
+  
+    .ContentDiv {
+        width:100%;
+        padding-left:10px;
+        padding-right:10px;
+    } 
+    
+    .ContentInside {
+        margin-top:0 !important;
+        padding-top:22px;
+    }
+    .ContentInside h1 {
+        margin-bottom:10px;
+    } 
+
+    .FormWidth {
+        width:100%;
+        max-width:100%;
+        margin-bottom:0;
+    }
+    .FormWidth.Border:after {
+        display:none;
+    }
+
+    .TableDiv .TableTabs {
+        position:relative !important; 
+        left:0;
+        margin-top:15px;
+        display:inline-block;
+        width:100%;s
+    }
+    .TableDiv .TableTabs ul li {
+        display:inline-block;
+        width:auto;
+        float:left; 
+        margin-right:5px;
+    }
+    .TableDiv .TableTabs ul li a {
+        font-size:17px;
+        margin-left:0;
+    }
+
+
+
+    .TableContent {
+        margin-top:7px;
+    }
+    .TableContent .Nohistoryyet {
+        padding-top:60px;
+        padding-bottom:60px;
+    }
+    .table thead tr th {
+        font-size:16px;
+    }
+    .table tbody tr td {
+        font-size:14px;
+    }
+
+ 
+    
+    .Language a {
+        width:40px;
+        height:40px;
+        font-size:14px;
+        line-height:15px;
+    } 
+    .Language a:after {
+        width:5px;
+        height:5px;
+        bottom:8px
+    }
+    .HeadClose {
+        display:none
+    }
+    .ContentDiv .Header {
+        padding-top:15px;
+    }
+    .ContentDiv .Header .HeadButtons {
+        width:100%;
+    }
+    .ContentDiv .Header .HeadButtons .btn {
+        margin-top:20px;
+    }
+ 
+    .Sidebar {
+        width:calc(100% - 60px); 
+        position:absolute;
+        z-index:9; 
+        left:-100%;
+        transition:0.3s;
+        overflow-y:scroll;
+        height:100%;
+        box-shadow:0px -3px 15px rgba(0,0,0,0.1);
+        padding-top:30px;
+    }
+    .Sidebar .MainMenu ul li a {
+        padding-left:30px;
+        font-size:16px;
+        height:60px; 
+        line-height:60px;
+    }
+    .Sidebar .MainMenu ul li a span {
+        font-size:19px;
+    }
+
+    .Sidebar .Logo {
+        margin-bottom:30px;
+        height:52px;    
+    }
+
+    .Sidebar .Checkbox {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+ 
+    .BurgerIcon {
+        position:absolute;
+        top:12px;
+        right:15px;
+        font-size:30px;
+    }
+    .BurgerIcon .Close {
+        display:none;
+    }
+    .ShowSidebar .BurgerIcon .Dehaze {
+        display:none;
+    }
+    .ShowSidebar .BurgerIcon .Close {
+        display:inline-block;
+    }
+    .ShowSidebar {
+        overflow:hidden;
+    } 
+    .ShowSidebar .Sidebar {
+        left:0;
+    }
+    /* .ShowSidebar .Sidebar:after {
+        content:'';
+        width:60px;
+        height:100%;
+        position:absolute;
+        top:60px;
+        left:100%;
+        background:red;
+    } */
+
+
+
+    .TextDiv {
+        font-size:16px;
+    }
+    .TextDiv .Item {
+        margin-bottom:20px;
+    }
+    .btn.Width120 {
+        width:90px;
+    }
+
+
+    .PayMantIcon {
+        padding-right:0;
+        margin-bottom:23px !important;
+        margin-top:5px !important
+    }
+    .PayMantIcon .Item {
+        margin-left:10px;
+    }
+    .PayMantIcon .Item img {
+        height:20px
+    }
+
+
+    .SuccessDiv {
+        display:inline-block;
+        height:auto;
+        min-height:100%;
+        padding-bottom:50px;
+    }
+    .SuccessDiv .Flex {
+        display:inline-block;
+    }
+    .SuccessDiv .Info .Check {
+        margin-bottom:0;
+    }
+    .SuccessDiv .Info .Text {
+        font-size:26px;
+        padding:0 15px;
+        margin-bottom:30px;
+    } 
+    .LogOut {
+       display:inline-flex;
+       padding-bottom:0;
+    }
+
+
+    .LoginPage {
+        background:#fff;
+    }
+    .LoginPage .Left .Image {
+        background:none;
+        padding-bottom:10px; 
+        margin-top:3px;
+    }
+    .LoginPage .Right .Content {
+        display:inline-block;
+        padding-top:30px; 
+        padding-right:30px;
+    }
+
+    .form-group.mb-5 {
+        margin-bottom:1rem !important;
+    }
+
+}
+
+
+
+
+@media (min-width: 992px) {
+    .HideDesktop {
+        display:none !important
+    }
+    .BurgerIcon {
+        display:none !important
+    }
+}
+
+
+
+@media (min-width:576px) and (max-width:992px){
+    .LoginPage {}
+    .LoginPage .Height100 {
+        height:100%;
+    }
+    .LoginPage .Left .Image { 
+        background: url(../img/login_bg.svg) no-repeat;
+        background-position: center;
+        background-size: auto 90%;
+    }
+}
